@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+header {
+  width: 100%;
+  background-color: #1f1c1c; }
+  header .nav h2 {
+    color: white;
+    display: flex;
+    justify-content: center; }
+  header .nav .nav-items {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; }
+  header .nav .nav-menu-link {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 10px; }
