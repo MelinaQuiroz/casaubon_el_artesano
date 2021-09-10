@@ -1,3 +1,6 @@
+/*----VARIABLES SASS---*/
+$tipografia_principal: 'Archivo', sans-serif;
+
 * {
   padding: 0;
   margin: 0;
@@ -7,22 +10,32 @@
 header {
   width: 100%;
   background-color: rgb(31, 28, 28);
+  font-family: $tipografia_principal; 
   .nav {
-    h2 {
-      color: white;
+    .logo {
+      width: 130px;
+      height: 130px;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .nav-items {
+      margin-top: 20px;
       display: flex;
       justify-content: center;
     }
-    .nav-items {
-     margin-top: 20px;
-     display: flex;
-     justify-content: center;
-    }
     .nav-menu-link {
+      line-height: 40px;
       color: white;
       text-decoration: none;
-      font-size: 25px;
+      font-size: 16px;
+      text-transform: uppercase;
       margin-left: 10px;
+    }
+    .nav-menu-link:hover {
+      transition: all 0.25s;
+      color: orange;
     }
   }
 }
