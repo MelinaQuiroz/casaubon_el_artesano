@@ -1,5 +1,5 @@
 /*----VARIABLES SASS---*/
-$tipografia_principal: 'Archivo', sans-serif;
+$tipografia_principal: "Archivo", sans-serif;
 
 * {
   padding: 0;
@@ -7,14 +7,15 @@ $tipografia_principal: 'Archivo', sans-serif;
   box-sizing: border-box;
 }
 
+
 header {
   width: 100%;
   background-color: rgb(31, 28, 28);
-  font-family: $tipografia_principal; 
+  font-family: $tipografia_principal;
   .nav {
     .logo {
-      width: 130px;
-      height: 130px;
+      width: 90px;
+      // height: 100px;
       margin: auto;
       display: flex;
       justify-content: center;
@@ -38,4 +39,20 @@ header {
       color: orange;
     }
   }
+}
+
+.footer-container {
+  width: 100%;
+  background-color: rgb(42, 39, 39);
+  bottom: 0;
+}
+
+.sticky {
+  transition: all 0.25s;
+  width: 100%;
+  background-color: rgb(93, 89, 89);
+  position: fixed;
+    .logo {
+      transition: all 0.25s;
+    }
 }

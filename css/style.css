@@ -9,8 +9,7 @@ header {
   background-color: #1f1c1c;
   font-family: "Archivo", sans-serif; }
   header .nav .logo {
-    width: 130px;
-    height: 130px;
+    width: 90px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -29,3 +28,16 @@ header {
   header .nav .nav-menu-link:hover {
     transition: all 0.25s;
     color: orange; }
+
+.footer-container {
+  width: 100%;
+  background-color: #2a2727;
+  bottom: 0; }
+
+.sticky {
+  transition: all 0.25s;
+  width: 100%;
+  background-color: #5d5959;
+  position: fixed; }
+  .sticky .logo {
+    transition: all 0.25s; }
