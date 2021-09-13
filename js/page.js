@@ -3,7 +3,7 @@ $(document).ready(function () {
     /*--Sticky Navigation---*/
     $(window).scroll(function () {
       let scrollDist = $(document).scrollTop();
-      if (scrollDist > 150) {
+      if (scrollDist >= 150) {
         $(".nav").addClass("sticky");
         $(".logo").width("90px").heigth("90px");
       } else {
