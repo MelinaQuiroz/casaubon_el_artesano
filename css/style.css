@@ -7,7 +7,9 @@
 header {
   width: 100%;
   background-color: #1f1c1c;
-  font-family: "Archivo", sans-serif; }
+  font-family: "Archivo", sans-serif;
+  position: fixed;
+  overflow: hidden; }
   header .nav .logo {
     width: 130px;
     margin: auto;

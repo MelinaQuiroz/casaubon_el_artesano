@@ -12,6 +12,8 @@ header {
   width: 100%;
   background-color: rgb(31, 28, 28);
   font-family: $tipografia_principal;
+  position: fixed;
+  overflow: hidden;
   .nav {
     .logo {
       width: 130px;
