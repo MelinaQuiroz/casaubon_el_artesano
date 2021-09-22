@@ -1,5 +1,19 @@
 /*----VARIABLES SASS---*/
-$tipografia_principal: "Archivo", sans-serif;
+$tipografia_general: 'Noto Serif', serif;
+@font-face {
+  font-family: Yerbaluisa;
+  src: url(../yerbaluisa.woff2);
+}
+h2 {
+  font-family: Yerbaluisa;
+
+}
+$color_1: rgb(255,80,43);
+$color_2: rgb(255,116,62);
+$color_3: rgb(235,158,86);
+$color_4: rgb(255,207,142);
+$color_fondo: rgb(255,246,241);
+
 
 * {
   padding: 0;
@@ -8,39 +22,49 @@ $tipografia_principal: "Archivo", sans-serif;
 }
 
 
-header {
-  width: 100%;
-  background-color: rgb(31, 28, 28);
-  font-family: $tipografia_principal;
-  position: fixed;
-  overflow: hidden;
-  .nav {
-    .logo {
-      width: 130px;
-      // height: 100px;
-      margin: auto;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+.header {
+  background-image: url(../images/FONDO-Inicio-Página-Web.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 800px;
+   .nav {
+     height: 70px;
+     background-color: $color_2;
+     display: flex;
+     justify-content: space-between;
+     .item{
+      color: white;
+      font-size: 25px;
+      margin: 0 auto;
+      padding-top: 20px;
+      margin-left: 200px;
     }
     .nav-items {
-      margin-top: 20px;
-      display: flex;
-      justify-content: center;
+      margin-right: 200px;
+      margin-top: 25px;
     }
-    .nav-menu-link {
-      line-height: 40px;
-      color: white;
-      text-decoration: none;
-      font-size: 16px;
-      text-transform: uppercase;
-      margin-left: 10px;
-    }
-    .nav-menu-link:hover {
-      transition: all 0.25s;
-      color: orange;
-    }
-  }
+     .nav-menu-link {
+       color: black;
+       line-height: 20px;
+       text-decoration: none;
+       text-transform: uppercase;
+       font-family: Yerbaluisa;
+       margin-left: 10px;
+      
+     }
+   }
+   .container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   .logo {
+     width: 500px;
+     margin-top: 30px;
+   }
+  
 }
 
 .footer-container {
@@ -49,12 +73,17 @@ header {
   bottom: 0;
 }
 
-.sticky {
-  transition: all 0.25s;
-  width: 100%;
-  background-color: rgb(93, 89, 89);
-  position: fixed;
-    .logo {
-      transition: all 0.25s;
-    }
-}
+
+
+
+
+
+// .sticky {
+//   transition: all 0.25s;
+//   width: 100%;
+//   background-color: rgb(93, 89, 89);
+//   position: fixed;
+//     .logo {
+//       transition: all 0.25s;
+//     }
+// }
