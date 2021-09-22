@@ -2,7 +2,7 @@
 /*----VARIABLES SASS---*/
 @font-face {
   font-family: Yerbaluisa;
-  src: url(/fonts/yerbaluisa_demo-font-FFP.ttf); }
+  src: url(../fonts/yerbaluisa_demo-font-FFP.ttf); }
 
 * {
   padding: 0;
