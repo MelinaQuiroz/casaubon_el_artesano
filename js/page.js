@@ -1,4 +1,19 @@
-// $(document).ready(function () {
+$(document).ready(function () {
+/*---HAMBURGUER BTN---*/
+const menuBtn = $(".menu-btn");
+let menuOpen = false;
+menuBtn.click( () => {
+    if (!menuOpen) {
+        menuBtn.addClass("open");
+        menuOpen = true;
+    } else {
+        menuBtn.removeClass("open");
+        menuOpen = false;
+    }
+
+})
+
+  
   
 //   /*--Sticky Navigation---*/
 //   $(window).scroll(function () {
@@ -14,5 +29,5 @@
 //       $(".logo").width("130px").heigth("130px");
 //     }
 //   });
-// });
+});
 
