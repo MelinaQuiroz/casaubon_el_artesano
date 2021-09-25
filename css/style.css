@@ -23,11 +23,13 @@
     display: flex;
     justify-content: space-between; }
     .header .nav .item {
-      color: white;
       font-size: 25px;
       margin: 0 auto;
       padding-top: 20px;
       margin-left: 200px; }
+      .header .nav .item a {
+        text-decoration: none;
+        color: white; }
     .header .nav .nav-items {
       margin-right: 200px;
       margin-top: 25px; }
@@ -70,7 +72,7 @@
     .header .menu-btn .menu-btn_burguer::after {
       transform: translateY(10px); }
   .header .menu-btn.open .menu-btn_burguer {
-    transform: translateX(-30px);
+    transform: translateX(-45px);
     background: transparent;
     box-shadow: none; }
   .header .menu-btn.open .menu-btn_burguer::before {

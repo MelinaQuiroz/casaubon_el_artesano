@@ -17,6 +17,8 @@ $color_fondo: rgb(255, 246, 241);
   box-sizing: border-box;
 }
 
+
+
 .header {
   background-image: url(../images/FONDO-Inicio-Página-Web.jpg);
   background-repeat: no-repeat;
@@ -30,11 +32,15 @@ $color_fondo: rgb(255, 246, 241);
     display: flex;
     justify-content: space-between;
     .item {
-      color: white;
       font-size: 25px;
       margin: 0 auto;
       padding-top: 20px;
       margin-left: 200px;
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    
     }
     .nav-items {
       margin-right: 200px;
@@ -91,7 +97,7 @@ $color_fondo: rgb(255, 246, 241);
   /*---ANIMATION---*/
    .menu-btn.open {
      .menu-btn_burguer {
-       transform: translateX(-30px);
+       transform: translateX(-45px);
        background: transparent;
        box-shadow: none;
      }
