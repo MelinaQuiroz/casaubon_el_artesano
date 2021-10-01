@@ -1,6 +1,6 @@
+@import "../scss/abstracts/vars";
+@import "../scss/components/header";
 
-@forward "/scss/vars";
-@forward "/scss/header";
 
 * {
   padding: 0;
@@ -9,32 +9,10 @@
 }
 
 
-
-
-
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .logo {
-    width: 500px;
-    margin-top: 30px;
-  }
-
-
 .footer-container {
   width: 100%;
   background-color: rgb(42, 39, 39);
   bottom: 0;
 }
 
-// .sticky {
-//   transition: all 0.25s;
-//   width: 100%;
-//   background-color: rgb(93, 89, 89);
-//   position: fixed;
-//     .logo {
-//       transition: all 0.25s;
-//     }
-// }
+

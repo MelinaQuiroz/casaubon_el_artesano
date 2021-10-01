@@ -1,6 +1,4 @@
 
-@use "/scss/vars" as c ;
-
 .header {
     background-image: url(../images/FONDO-Inicio-Página-Web.jpg);
     background-repeat: no-repeat;
@@ -10,7 +8,7 @@
     height: 800px;
     .nav {
       height: 70px;
-      background-color: c.$color_2;
+      background-color: $color_2;
       display: flex;
       justify-content: space-between;
       .item {
@@ -33,7 +31,7 @@
         line-height: 20px;
         text-decoration: none;
         text-transform: uppercase;
-        font-family: c.$tipografia_general;
+        font-family: $tipografia_general;
         margin-left: 10px;
       }
     }
@@ -92,6 +90,28 @@
      
       }
 
-
+     
 
     }
+
+    .sticky {
+      transition: all 0.25s;
+      width: 100%;
+      background-color: rgb(93, 89, 89);
+      position: fixed;
+        .logo {
+          transition: all 0.25s;
+        }
+    }
+
+
+    
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    width: 500px;
+    margin-top: 30px;
+  }

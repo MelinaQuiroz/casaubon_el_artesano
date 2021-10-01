@@ -1,13 +1,7 @@
 @charset "UTF-8";
-/*----VARIABLES SASS---*/
 @font-face {
   font-family: Yerbaluisa;
   src: url(../fonts/yerbaluisa_demo-font-FFP.ttf); }
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box; }
 
 .header {
   background-image: url(../images/FONDO-Inicio-Página-Web.jpg);
@@ -79,13 +73,28 @@
     transform: rotate(45deg) translate(35px, -35px); }
   .header .menu-btn.open .menu-btn_burguer::after {
     transform: rotate(-45deg) translate(35px, 35px); }
-  .header .container {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-  .header .logo {
-    width: 500px;
-    margin-top: 30px; }
+
+.sticky {
+  transition: all 0.25s;
+  width: 100%;
+  background-color: #5d5959;
+  position: fixed; }
+  .sticky .logo {
+    transition: all 0.25s; }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.logo {
+  width: 500px;
+  margin-top: 30px; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
 
 .footer-container {
   width: 100%;
