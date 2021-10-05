@@ -1,4 +1,5 @@
 
+
 .header {
     background-image: url(../images/FONDO-Inicio-Página-Web.jpg);
     background-repeat: no-repeat;
@@ -8,21 +9,23 @@
     height: 800px;
     .nav {
       height: 70px;
-      background-color: $color_2;
+      background-color: $color_1;
       display: flex;
       justify-content: space-between;
       .item {
-        font-size: 25px;
-        margin: 0 auto;
-        padding-top: 20px;
-        margin-left: 200px;
-        a {
-          text-decoration: none;
-          color: white;
-        }
+         font-size: 25px;
+         margin-top: 12px;
+         margin-left: 100px;
       
       }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+        
+      }
       .nav-items {
+        display: none;
         margin-right: 200px;
         margin-top: 25px;
       }
@@ -34,11 +37,11 @@
         font-family: $tipografia_general;
         margin-left: 10px;
       }
-    }
+    
   
     .menu-btn {
       margin-top: 10px;
-      margin-right: 200px;
+      margin-right: 15%;
       color: white;
       position: relative;
       display: flex;
@@ -88,23 +91,20 @@
         transform: rotate(-45deg) translate(35px, 35px);
       }
      
-      }
+     }
 
      
 
-    }
+}
 
     .sticky {
       transition: all 0.25s;
       width: 100%;
       background-color: rgb(93, 89, 89);
       position: fixed;
-        .logo {
-          transition: all 0.25s;
-        }
+      transition: all 0.25s;
     }
-
-
+ 
     
   .container {
     display: flex;
@@ -115,3 +115,18 @@
     width: 500px;
     margin-top: 30px;
   }
+
+  .little-logo {
+    width: 75px;
+    margin-right: 100px;
+
+     .img-logo {
+       padding: 2px;
+     }
+  }
+
+
+
+
+
+

@@ -13,30 +13,30 @@
   /*---ANIMATION---*/ }
   .header .nav {
     height: 70px;
-    background-color: #ff743e;
+    background-color: #af4b2c;
     display: flex;
     justify-content: space-between; }
     .header .nav .item {
       font-size: 25px;
-      margin: 0 auto;
-      padding-top: 20px;
-      margin-left: 200px; }
-      .header .nav .item a {
-        text-decoration: none;
-        color: white; }
-    .header .nav .nav-items {
-      margin-right: 200px;
-      margin-top: 25px; }
-    .header .nav .nav-menu-link {
-      color: black;
-      line-height: 20px;
+      margin-top: 12px;
+      margin-left: 100px; }
+    .header .nav a {
       text-decoration: none;
-      text-transform: uppercase;
-      font-family: "Noto Serif", serif;
-      margin-left: 10px; }
+      color: white; }
+  .header .nav-items {
+    display: none;
+    margin-right: 200px;
+    margin-top: 25px; }
+  .header .nav-menu-link {
+    color: black;
+    line-height: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Noto Serif", serif;
+    margin-left: 10px; }
   .header .menu-btn {
     margin-top: 10px;
-    margin-right: 200px;
+    margin-right: 15%;
     color: white;
     position: relative;
     display: flex;
@@ -78,9 +78,8 @@
   transition: all 0.25s;
   width: 100%;
   background-color: #5d5959;
-  position: fixed; }
-  .sticky .logo {
-    transition: all 0.25s; }
+  position: fixed;
+  transition: all 0.25s; }
 
 .container {
   display: flex;
@@ -90,6 +89,35 @@
 .logo {
   width: 500px;
   margin-top: 30px; }
+
+.little-logo {
+  width: 75px;
+  margin-right: 100px; }
+  .little-logo .img-logo {
+    padding: 2px; }
+
+.nuestros-productos {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .nuestros-productos h1 {
+    font-family: Yerbaluisa;
+    font-size: 80px; }
+  .nuestros-productos a img {
+    width: 200px; }
+
+/*---carrousel--*/
+#carousel {
+  width: 800px;
+  height: 500px;
+  display: relative;
+  left: 42%; }
+
+#carousel img {
+  width: 400px;
+  height: 270px;
+  display: hidden;
+  /* hide images until carousel prepares them */ }
 
 * {
   padding: 0;

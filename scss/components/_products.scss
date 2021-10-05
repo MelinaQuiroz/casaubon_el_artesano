@@ -1,0 +1,30 @@
+
+
+.nuestros-productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      h1 {
+          font-family: Yerbaluisa;
+          font-size: 80px
+      }
+      a {
+        img {
+            width: 200px;
+        }
+      }
+}
+
+/*---carrousel--*/
+
+#carousel {
+    width:800px;
+    height: 500px;
+    display: relative;
+    left: 42%;
+  }
+  #carousel img {
+      width: 400px;
+      height: 270px;
+    display: hidden; /* hide images until carousel prepares them */
+  }
