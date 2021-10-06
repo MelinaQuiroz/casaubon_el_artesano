@@ -15,7 +15,8 @@
     height: 70px;
     background-color: #af4b2c;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    z-index: 999; }
     .header .nav .item {
       font-size: 25px;
       margin-top: 12px;
@@ -127,6 +128,25 @@
 .slick-arrow {
   width: 50%;
   bottom: -80%; }
+
+.map {
+  width: 98%;
+  margin-left: 20px;
+  border: 3px solid #af4b2c; }
+
+.footer-container {
+  background-color: #af4b2c;
+  bottom: 0;
+  display: flex; }
+  .footer-container .footer-logo {
+    width: 300px; }
+  .footer-container .social-media {
+    list-style: none;
+    display: column; }
+    .footer-container .social-media .facebook {
+      width: 80px; }
+    .footer-container .social-media .instagram {
+      width: 80px; }
 
 * {
   padding: 0;

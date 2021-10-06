@@ -1,0 +1,31 @@
+
+
+.map {
+    width: 98%;
+    margin-left:20px;
+    border: 3px solid $color_1;
+
+}
+
+.footer-container {
+    background-color: $color_1;
+    bottom: 0;
+    display: flex;
+     .footer-logo {
+         width: 300px;
+     }
+
+     .social-media {
+         list-style: none;
+         display: column;
+        
+         .facebook {
+             width: 80px;
+         }
+         .instagram {
+             width: 80px;
+         }
+     }
+
+}
+
