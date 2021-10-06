@@ -108,7 +108,9 @@
 
 /*---carrousel--*/
 .for_slick_slider {
-  display: flex; }
+  margin: 200px 0;
+  display: flex;
+  width: 100%; }
   .for_slick_slider .items {
     width: 0px;
     height: 250px;
