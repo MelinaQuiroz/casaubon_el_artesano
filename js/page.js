@@ -23,25 +23,25 @@ $(document).ready(function () {
       }
     });
 
+    
+    /*---Carousel--*/
 
-    var carousel = $("#carousel").waterwheelCarousel({
-          flankingItems: 3,
-        });
+    $('.for_slick_slider').slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: false,
+      autoplaySpeed: 2000,
+      arrow: true,
+      centerMode: true,
+      centerPadding: "0"
+    });
+            
+    
+  
       
-        $('#prev').bind('click',function () {
-          carousel.prev();
-          return false
-      
-        });
-        $('#next').bind('click',function () {
-          carousel.next();
-          return false;
-      
-        });
-      
+
+
 
 
 });
-
-
-
