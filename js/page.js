@@ -34,7 +34,9 @@ $(document).ready(function () {
       autoplaySpeed: 2000,
       arrow: true,
       centerMode: true,
-      centerPadding: "0"
+      centerPadding: "0",
+      prevArrow:   '<a href="#" id="prev"><img class="img-fluid" src="images/left-arrow.png" alt="prev" /></a>',
+      nextArrow:  '<a href="#" id="next"><img class="img-fluid" src="images/right-arrow.png" alt="next" /></a>'
     });
             
     
