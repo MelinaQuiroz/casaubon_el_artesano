@@ -19,9 +19,7 @@
 .for_slick_slider {
   margin: 200px 0;
   display: flex;
-  width: 100%;
    .items {
-     width: 0px;
      height: 250px;
      margin: 50px;
       img {
@@ -29,10 +27,26 @@
         width: 350px;
         height: 250px;
         transition: all linear 0.4s;
+        
+      }
+      .pizza-title {
+        color: $color_1;
+        transform:translateY(-60px);
       }
       
    }
-}  .slick-center {
+}
+.slick-track {
+  height: 600px;
+}
+
+
+.slick-center {
+     .pizza-title {
+       color: $color_1;
+       transform:translateY(-60px);
+       transform:scale(2);
+     }
      img  {
        transform: scale(1.2);
      }

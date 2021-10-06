@@ -20,7 +20,7 @@
     .header .nav .item {
       font-size: 25px;
       margin-top: 12px;
-      margin-left: 100px; }
+      margin-left: 150px; }
     .header .nav a {
       text-decoration: none;
       color: white; }
@@ -92,8 +92,7 @@
   margin-top: 30px; }
 
 .little-logo {
-  width: 75px;
-  margin-right: 100px; }
+  width: 75px; }
   .little-logo .img-logo {
     padding: 2px; }
 
@@ -110,10 +109,8 @@
 /*---carrousel--*/
 .for_slick_slider {
   margin: 200px 0;
-  display: flex;
-  width: 100%; }
+  display: flex; }
   .for_slick_slider .items {
-    width: 0px;
     height: 250px;
     margin: 50px; }
     .for_slick_slider .items img {
@@ -121,6 +118,17 @@
       width: 350px;
       height: 250px;
       transition: all linear 0.4s; }
+    .for_slick_slider .items .pizza-title {
+      color: #af4b2c;
+      transform: translateY(-60px); }
+
+.slick-track {
+  height: 600px; }
+
+.slick-center .pizza-title {
+  color: #af4b2c;
+  transform: translateY(-60px);
+  transform: scale(2); }
 
 .slick-center img {
   transform: scale(1.2); }
