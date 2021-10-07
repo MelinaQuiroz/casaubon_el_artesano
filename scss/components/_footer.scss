@@ -1,3 +1,13 @@
+/*---titulo---*/
+.tituloUbicacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      h2 {
+          font-family: Yerbaluisa;
+          font-size: 80px;
+      }
+}
 
 
 .map {
@@ -29,3 +39,20 @@
 
 }
 
+
+/*---whatsapp---*/
+.iconoWhatsapp {
+    width: 80px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50%;
+    box-shadow: 0 1px 10px black;
+    transition: all 0.5s;
+
+}
+
+.iconoWhatsapp:hover {
+    transform: scale(1.1);
+
+}

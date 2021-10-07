@@ -96,6 +96,7 @@
   .little-logo .img-logo {
     padding: 2px; }
 
+/*---titulo---*/
 .nuestros-productos {
   display: flex;
   justify-content: center;
@@ -103,8 +104,6 @@
   .nuestros-productos h1 {
     font-family: Yerbaluisa;
     font-size: 80px; }
-  .nuestros-productos a img {
-    width: 200px; }
 
 /*---carrousel--*/
 .for_slick_slider {
@@ -119,8 +118,10 @@
       height: 250px;
       transition: all linear 0.4s; }
     .for_slick_slider .items .pizza-title {
+      text-align: center;
       color: #af4b2c;
-      transform: translateY(-60px); }
+      transform: translateY(-60px);
+      transition: all linear 0.4s; }
 
 .slick-track {
   height: 600px; }
@@ -128,7 +129,7 @@
 .slick-center .pizza-title {
   color: #af4b2c;
   transform: translateY(-60px);
-  transform: scale(2); }
+  font-size: 50px; }
 
 .slick-center img {
   transform: scale(1.2); }
@@ -136,6 +137,15 @@
 .slick-arrow {
   width: 50%;
   bottom: -80%; }
+
+/*---titulo---*/
+.tituloUbicacion {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .tituloUbicacion h2 {
+    font-family: Yerbaluisa;
+    font-size: 80px; }
 
 .map {
   width: 98%;
@@ -155,6 +165,27 @@
       width: 80px; }
     .footer-container .social-media .instagram {
       width: 80px; }
+
+/*---whatsapp---*/
+.iconoWhatsapp {
+  width: 80px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  border-radius: 50%;
+  box-shadow: 0 1px 10px black;
+  transition: all 0.5s; }
+
+.iconoWhatsapp:hover {
+  transform: scale(1.1); }
+
+.tituloHistoria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Yerbaluisa; }
+  .tituloHistoria h2 {
+    font-size: 80px; }
 
 * {
   padding: 0;
