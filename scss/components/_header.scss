@@ -1,22 +1,22 @@
 
-
 .header {
     background-image: url(../images/FONDO-Inicio-Página-Web.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 800px;
+    height: 1000px;
     .nav {
       height: 70px;
       background-color: $color_1;
       display: flex;
       justify-content: space-between;
       z-index: 999;
+      
       .item {
          font-size: 25px;
          margin-top: 12px;
-         margin-left: 150px;
+         margin-left: 10%;
       
       }
       a {
@@ -42,7 +42,7 @@
   
     .menu-btn {
       margin-top: 10px;
-      margin-right: 15%;
+      margin-right: 10%;
       color: white;
       position: relative;
       display: flex;
@@ -113,10 +113,9 @@
     align-items: center;
   }
   .logo {
-    width: 500px;
-    margin-top: 30px;
+    width: 800px;
+    margin-top: 6%;
   }
-
   .little-logo {
     width: 75px;
 
@@ -124,9 +123,4 @@
        padding: 2px;
      }
   }
-
-
-
-
-
 

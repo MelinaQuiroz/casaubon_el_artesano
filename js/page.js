@@ -59,10 +59,9 @@ $(document).ready(function () {
       ]
     });
             
-    
-  
-      
-
+   /*---Smooth scroll navigation ---*/
+   
+ 
 
 
 

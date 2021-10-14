@@ -1,24 +1,11 @@
+
+@import "../scss/components/base";
 @import "../scss/abstracts/vars";
 @import "../scss/components/header";
 @import "../scss/components/products";
 @import "../scss/components/footer";
 @import "../scss/components/historia";
-
-
-
-
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-
-body {
-  background-color: $color_fondo;
-}
-
+@import "../scss/components/media";
 
 
 

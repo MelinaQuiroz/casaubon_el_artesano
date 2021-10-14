@@ -4,9 +4,14 @@ $tipografia_general: "Noto Serif", serif;
   font-family: Yerbaluisa;
   src: url(../fonts/yerbaluisa_demo-font-FFP.ttf);
 }
+@font-face {
+  font-family: SemiCondensed;
+  src: url(../fonts/OpenSans_SemiCondensed-SemiBold.ttf);
+}
 
 $color_1: rgb(175, 75, 44);
 $color_2: rgb(255, 80, 43);
 $color_3: rgb(235, 158, 86);
 $color_4: rgb(255, 207, 142);
+$color_6: rgb(130,50,21);
 $color_fondo: rgb(255, 246, 241);

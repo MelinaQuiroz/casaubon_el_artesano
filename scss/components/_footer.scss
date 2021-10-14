@@ -11,8 +11,8 @@
 
 
 .map {
-    width: 98%;
-    margin-left:20px;
+    height: 400px;
+    width: 100%;
     border: 3px solid $color_1;
 
 }
@@ -21,19 +21,43 @@
     background-color: $color_1;
     bottom: 0;
     display: flex;
+    justify-content: space-between;
      .footer-logo {
-         width: 300px;
+         width: 150px;
+         margin: 10px;
      }
 
+
+     .footerSections {
+         a {
+             font-family: SemiCondensed;
+             display: flex;
+             flex-direction: column;
+             color: white;
+             text-decoration: none;
+             font-size: 20px;
+             padding: 6px;
+             align-items: center;
+         }
+     }
      .social-media {
          list-style: none;
          display: column;
+         margin-top: 10%;
+         margin-right: 40px;
+          div {
+              padding: 6px;
+          }
         
          .facebook {
-             width: 80px;
+             border-radius: 50%;
+             border: 3px solid $color_6;
+             width: 60px;
          }
          .instagram {
-             width: 80px;
+            border-radius: 50%;
+            border: 3px solid $color_6;
+            width: 60px;
          }
      }
 

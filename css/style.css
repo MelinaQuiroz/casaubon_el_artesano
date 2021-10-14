@@ -1,7 +1,19 @@
 @charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #fff6f1; }
+
 @font-face {
   font-family: Yerbaluisa;
   src: url(../fonts/yerbaluisa_demo-font-FFP.ttf); }
+
+@font-face {
+  font-family: SemiCondensed;
+  src: url(../fonts/OpenSans_SemiCondensed-SemiBold.ttf); }
 
 .header {
   background-image: url(../images/FONDO-Inicio-Página-Web.jpg);
@@ -9,7 +21,7 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 800px;
+  height: 1000px;
   /*---ANIMATION---*/ }
   .header .nav {
     height: 70px;
@@ -20,7 +32,7 @@
     .header .nav .item {
       font-size: 25px;
       margin-top: 12px;
-      margin-left: 150px; }
+      margin-left: 10%; }
     .header .nav a {
       text-decoration: none;
       color: white; }
@@ -37,7 +49,7 @@
     margin-left: 10px; }
   .header .menu-btn {
     margin-top: 10px;
-    margin-right: 15%;
+    margin-right: 10%;
     color: white;
     position: relative;
     display: flex;
@@ -88,8 +100,8 @@
   align-items: center; }
 
 .logo {
-  width: 500px;
-  margin-top: 30px; }
+  width: 800px;
+  margin-top: 6%; }
 
 .little-logo {
   width: 75px; }
@@ -118,6 +130,7 @@
       height: 250px;
       transition: all linear 0.4s; }
     .for_slick_slider .items .pizza-title {
+      font-family: "Noto Serif", serif;
       text-align: center;
       color: #af4b2c;
       transform: translateY(-60px);
@@ -135,8 +148,7 @@
   transform: scale(1.2); }
 
 .slick-arrow {
-  width: 50%;
-  bottom: -80%; }
+  width: 50%; }
 
 /*---titulo---*/
 .tituloUbicacion {
@@ -148,23 +160,42 @@
     font-size: 80px; }
 
 .map {
-  width: 98%;
-  margin-left: 20px;
+  height: 400px;
+  width: 100%;
   border: 3px solid #af4b2c; }
 
 .footer-container {
   background-color: #af4b2c;
   bottom: 0;
-  display: flex; }
+  display: flex;
+  justify-content: space-between; }
   .footer-container .footer-logo {
-    width: 300px; }
+    width: 150px;
+    margin: 10px; }
+  .footer-container .footerSections a {
+    font-family: SemiCondensed;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px;
+    align-items: center; }
   .footer-container .social-media {
     list-style: none;
-    display: column; }
+    display: column;
+    margin-top: 10%;
+    margin-right: 40px; }
+    .footer-container .social-media div {
+      padding: 6px; }
     .footer-container .social-media .facebook {
-      width: 80px; }
+      border-radius: 50%;
+      border: 3px solid #823215;
+      width: 60px; }
     .footer-container .social-media .instagram {
-      width: 80px; }
+      border-radius: 50%;
+      border: 3px solid #823215;
+      width: 60px; }
 
 /*---whatsapp---*/
 .iconoWhatsapp {
@@ -187,10 +218,28 @@
   .tituloHistoria h2 {
     font-size: 80px; }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box; }
-
-body {
-  background-color: #fff6f1; }
+@media (max-width: 480px) {
+  /*---header---*/
+  .nav {
+    height: 70px;
+    background-color: #af4b2c;
+    display: flex;
+    justify-content: space-between;
+    z-index: 999; }
+  .item {
+    margin-top: 12px; }
+  a {
+    font-size: 16px;
+    color: black; }
+  /*---footer---*/
+  .footer-container {
+    background-color: #af4b2c;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .footer-logo {
+    width: 10px; }
+  .social-media {
+    display: flex;
+    margin-left: 50px; } }

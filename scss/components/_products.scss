@@ -26,6 +26,7 @@
         
       }
       .pizza-title {
+        font-family: $tipografia_general;
         text-align: center;
         color: $color_1;
         transform:translateY(-60px);
@@ -51,6 +52,6 @@
 }
 
 .slick-arrow {
+
   width: 50%;
-  bottom: -80%;
 }
