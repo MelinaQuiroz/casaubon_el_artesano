@@ -1,12 +1,5 @@
 @charset "UTF-8";
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box; }
-
-body {
-  background-color: #fff6f1; }
-
+/*----Variables--*/
 @font-face {
   font-family: Yerbaluisa;
   src: url(../fonts/yerbaluisa_demo-font-FFP.ttf); }
@@ -15,6 +8,15 @@ body {
   font-family: SemiCondensed;
   src: url(../fonts/OpenSans_SemiCondensed-SemiBold.ttf); }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #fff6f1; }
+
+/*---Menu de navegacion---*/
 .header {
   background-image: url(../images/FONDO-Inicio-Página-Web.jpg);
   background-repeat: no-repeat;
@@ -108,6 +110,7 @@ body {
   .little-logo .img-logo {
     padding: 2px; }
 
+/*---Cuerpo de la pagina---*/
 /*---titulo---*/
 .nuestros-productos {
   display: flex;
@@ -150,6 +153,14 @@ body {
 .slick-arrow {
   width: 50%; }
 
+.tituloHistoria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Yerbaluisa; }
+  .tituloHistoria h2 {
+    font-size: 80px; }
+
 /*---titulo---*/
 .tituloUbicacion {
   display: flex;
@@ -160,7 +171,7 @@ body {
     font-size: 80px; }
 
 .map {
-  height: 400px;
+  height: 400npmpx;
   width: 100%;
   border: 3px solid #af4b2c; }
 
@@ -210,14 +221,7 @@ body {
 .iconoWhatsapp:hover {
   transform: scale(1.1); }
 
-.tituloHistoria {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: Yerbaluisa; }
-  .tituloHistoria h2 {
-    font-size: 80px; }
-
+/*--Media Query---/*/
 @media (max-width: 480px) {
   /*---header---*/
   .nav {

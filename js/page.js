@@ -6,9 +6,13 @@ $(document).ready(function () {
     if (!menuOpen) {
       menuBtn.addClass("open");
       menuOpen = true;
+       
+      $('.site-nav').toggleClass('site-nav--open', 500);
+      $(this).toggleClass('open');
     } else {
       menuBtn.removeClass("open");
       menuOpen = false;
+      $(".site-nav").removeClass("open");
     }
   });
 

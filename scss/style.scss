@@ -1,10 +1,19 @@
+/*----Variables--*/
+@import "../scss/abstracts/vars";
+
 
 @import "../scss/components/base";
-@import "../scss/abstracts/vars";
+
+/*---Menu de navegacion---*/
 @import "../scss/components/header";
+@import "../scss/components/nav-menu";
+
+/*---Cuerpo de la pagina---*/
 @import "../scss/components/products";
-@import "../scss/components/footer";
 @import "../scss/components/historia";
+@import "../scss/components/footer";
+
+/*--Media Query---/*/
 @import "../scss/components/media";
 
 
