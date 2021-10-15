@@ -36,7 +36,7 @@ $(document).ready(function () {
       slidesToScroll: 1,
       autoplay: false,
       autoplaySpeed: 2000,
-      arrow: true,
+      arrows: true,
       centerMode: true,
       centerPadding: "0",
       prevArrow:   '<a href="#" id="prev"><img class="img-fluid" src="images/left-arrow.png" alt="prev" /></a>',
@@ -64,7 +64,11 @@ $(document).ready(function () {
     });
             
    /*---Smooth scroll navigation ---*/
-   
+   window.scroll({
+    top: 2500, 
+    left: 0, 
+    behavior: 'smooth'
+  });
  
 
 

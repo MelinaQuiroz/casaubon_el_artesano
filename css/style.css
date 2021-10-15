@@ -222,7 +222,7 @@ body {
   transform: scale(1.1); }
 
 /*--Media Query---/*/
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   /*---header---*/
   .nav {
     height: 70px;
