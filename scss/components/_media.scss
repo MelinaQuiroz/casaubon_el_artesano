@@ -92,15 +92,19 @@ $breakpoints: (
       font-family: Yerbaluisa;
       font-size: 50px;
     }
-   }
+  }
    .slick-center {
      .pizza-title {
-       font-size: 35px; 
-
+       font-size: 35px;
        
      }
+     p {
+       font-size: 20px;
+     }
+     
+     
+  }
 
-   }
   
 
   /*---Historia---*/
@@ -108,6 +112,31 @@ $breakpoints: (
     h2 {
       font-size: 50px;
     }
+  }
+  .historiaContainer {
+    padding: 8px;
+  }
+  
+    
+    
+    
+  
+  .historia1 {
+    display: flex;
+    flex-direction: column;
+     padding: 0;
+     .phistoria1 {
+       font-size: 15px;
+     }
+      
+      
+  }
+  .historia2 {
+    display: flex;
+    flex-direction: column;
+     .phistoria2 {
+       font-size: 15px;
+     }
   }
 
   /*--Ubicación--*/
@@ -134,4 +163,5 @@ $breakpoints: (
     display: flex;
     margin-left: 75px;
   }
+
 }

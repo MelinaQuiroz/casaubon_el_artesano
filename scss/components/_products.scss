@@ -11,7 +11,7 @@
 
 /*---carrousel--*/
 .for_slick_slider {
-  margin: 200px 0;
+  margin: 50px 0;
   display: flex;
   .items {
     height: 250px;
@@ -29,6 +29,9 @@
       transform: translateY(-60px);
       transition: all linear 0.4s;
     }
+    p {
+      transition: all linear 0.4s;
+    }
   }
 }
 .slick-track {
@@ -40,6 +43,14 @@
     transform: translateY(-60px);
     font-size: 50px;
   }
+   p {
+     transform: translateY(60px);
+     font-family: $tipografia_general;
+     font-size: 25px;
+     opacity: 1;
+     transition: all 0.4s ease-in-out;
+
+   }
   img {
     transform: scale(1.2);
   }

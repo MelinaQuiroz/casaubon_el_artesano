@@ -122,7 +122,7 @@ body {
 
 /*---carrousel--*/
 .for_slick_slider {
-  margin: 200px 0;
+  margin: 50px 0;
   display: flex; }
   .for_slick_slider .items {
     height: 250px;
@@ -138,6 +138,8 @@ body {
       color: #af4b2c;
       transform: translateY(-60px);
       transition: all linear 0.4s; }
+    .for_slick_slider .items p {
+      transition: all linear 0.4s; }
 
 .slick-track {
   height: 600px; }
@@ -145,6 +147,13 @@ body {
 .slick-center .pizza-title {
   transform: translateY(-60px);
   font-size: 50px; }
+
+.slick-center p {
+  transform: translateY(60px);
+  font-family: "Noto Serif", serif;
+  font-size: 25px;
+  opacity: 1;
+  transition: all 0.4s ease-in-out; }
 
 .slick-center img {
   transform: scale(1.2); }
@@ -301,9 +310,24 @@ body {
     font-size: 50px; }
   .slick-center .pizza-title {
     font-size: 35px; }
+  .slick-center p {
+    font-size: 20px; }
   /*---Historia---*/
   .tituloHistoria h2 {
     font-size: 50px; }
+  .historiaContainer {
+    padding: 8px; }
+  .historia1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0; }
+    .historia1 .phistoria1 {
+      font-size: 15px; }
+  .historia2 {
+    display: flex;
+    flex-direction: column; }
+    .historia2 .phistoria2 {
+      font-size: 15px; }
   /*--Ubicación--*/
   .tituloUbicacion h2 {
     font-size: 50px; }
