@@ -18,7 +18,7 @@ $(document).ready(function () {
 
     /*--Sticky Navigation---*/
     $(window).scroll(function () {
-      if ($(window).scrollTop() > 100) {
+      if ($(window).scrollTop() > 0) {
         $("nav").addClass("sticky");
        
       } else {
@@ -70,7 +70,7 @@ $(document).ready(function () {
     behavior: 'smooth'
   });
  
-
+  /* botones footer */
 
 
 });
