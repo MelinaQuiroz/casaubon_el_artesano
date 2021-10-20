@@ -33,11 +33,12 @@
     justify-content: space-between;
      .footer-logo {
          width: 160px;
-         margin-left: 100px;
+         margin-left: 125px;
      }
 
 
      .footerSections {
+         margin: 10px;
          a {
              font-family: SemiCondensed;
              display: flex;
@@ -47,6 +48,14 @@
              font-size: 20px;
              padding: 6px;
              align-items: center;
+             transition: all 0.4s;
+             border-radius: 20px;
+         }
+         a:hover {
+             background-color: $color_6;
+             
+            
+             
          }
      }
      .social-media {
