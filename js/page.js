@@ -62,15 +62,52 @@ $(document).ready(function () {
         }
       ]
     });
+
+    /* Achicar y posicionar el logo al scrollear */
+  
+   
+      $(window).scroll(function(){
+          if($(window).scrollTop() < 200) {
+              $('#logo')
+                  .css({'width':'800px' , 'height':'auto'
+               
+                })
+                $("#logo-min").css({ "opacity":"0%" ,
+                '-webkit-transition':'all 0.2s ease',
+                '-moz-transition':'all 0.2s ease',
+                '-ms-transition':'all 0.2s ease',
+                '-o-transition':'all 0.2s ease',
+                'transition':'all 0.2s ease'
+
+                    });
+          }
+          if($(window).scrollTop() > 200) {
+              $('#logo')
+                  .css({'width':'300px',
+                    'height':'250px',
+            '-webkit-transition':'all 0.5s ease',
+            '-moz-transition':'all 0.5s ease',
+            '-ms-transition':'all 0.5s ease',
+            '-o-transition':'all 0.5s ease',
+            'transition':'all 0.5s ease'
+                    })
+                    
+                    $("#logo-min").css({ "opacity":"100%"
+
+                    });
+          }
+      });
+  
+    
             
    /*---Smooth scroll navigation ---*/
-   window.scroll({
+ /*   window.scroll({
     top: 2500, 
     left: 0, 
     behavior: 'smooth'
-  });
+  }); */
  
   /* botones footer */
 
 
-});
+}); 

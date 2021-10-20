@@ -115,13 +115,24 @@
   }
   .logo {
     width: 800px;
-    margin-top: 6%;
+    height: auto;
   }
   .little-logo {
     width: 75px;
 
      .img-logo {
+       opacity: 0%;
        padding: 2px;
      }
   }
 
+/*   .logoMin {
+      width:196px;
+      height: 166px;
+					-webkit-transition: all 0.5s ease;
+					-moz-transition: all 0.5s ease;
+					-ms-transition:all 0.5s ease;
+					-o-transition:all 0.5s ease;
+					transition:all 0.5s ease;
+  }
+ */
