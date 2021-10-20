@@ -6,6 +6,7 @@
       h2 {
           font-family: Yerbaluisa;
           font-size: 80px;
+          padding: 0px 30px 0px 30px;
       }
 }
 
@@ -30,7 +31,7 @@
     background-color: $color_1;
     bottom: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
      .footer-logo {
          width: 160px;
          margin-left: 125px;
@@ -53,8 +54,7 @@
          }
          a:hover {
              background-color: $color_6;
-             
-            
+              
              
          }
      }
@@ -71,24 +71,35 @@
              border-radius: 50%;
              border: 3px solid $color_6;
              width: 60px;
+             transition: all 0.5s;
+         }
+
+         .facebook:hover{
+            transform: scale(1.1);
          }
          .instagram {
             border-radius: 50%;
             border: 3px solid $color_6;
             width: 60px;
+            transition: all 0.5s;
+         }
+
+         .instagram:hover{
+            transform: scale(1.1);
          }
      }
 
-}
+    }
+
 
 
 /*---whatsapp---*/
 .iconoWhatsapp {
-    width: 80px;
+    width: 65px;
     position: fixed;
     bottom: 30px;
     right: 30px;
-    border-radius: 50%;
+    border-radius: 60%;
     box-shadow: 0 1px 10px black;
     transition: all 0.5s;
 
@@ -98,3 +109,4 @@
     transform: scale(1.1);
 
 }
+

@@ -23,7 +23,7 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 1000px;
+  height: 800px;
   /*---ANIMATION---*/ }
   .header .nav {
     height: 70px;
@@ -102,7 +102,7 @@ body {
   align-items: center; }
 
 .logo {
-  width: 800px;
+  width: 550px;
   height: auto; }
 
 .little-logo {
@@ -126,14 +126,16 @@ body {
 .nuestros-productos {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin-top: 40px; }
   .nuestros-productos h2 {
     font-family: Yerbaluisa;
-    font-size: 80px; }
+    font-size: 80px;
+    padding: 0px 30px 0px 30px; }
 
 /*---carrousel--*/
 .for_slick_slider {
-  margin: 50px 0;
+  margin: 50px 0px 40px 0px;
   display: flex; }
   .for_slick_slider .items {
     height: 250px;
@@ -170,7 +172,8 @@ body {
   transform: scale(1.2); }
 
 .slick-arrow {
-  width: 50%; }
+  width: 50%;
+  margin-top: 8%; }
 
 .tituloHistoria {
   display: flex;
@@ -178,7 +181,8 @@ body {
   align-items: center;
   font-family: Yerbaluisa; }
   .tituloHistoria h2 {
-    font-size: 80px; }
+    font-size: 80px;
+    padding: 0px 30px 0px 30px; }
 
 .historiaContainer {
   display: grid;
@@ -222,7 +226,8 @@ body {
   align-items: center; }
   .tituloUbicacion h2 {
     font-family: Yerbaluisa;
-    font-size: 80px; }
+    font-size: 80px;
+    padding: 0px 30px 0px 30px; }
 
 .sectionUbicacion {
   padding: 8px;
@@ -239,7 +244,7 @@ body {
   background-color: #af4b2c;
   bottom: 0;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-around; }
   .footer-container .footer-logo {
     width: 160px;
     margin-left: 125px; }
@@ -268,19 +273,25 @@ body {
     .footer-container .social-media .facebook {
       border-radius: 50%;
       border: 3px solid #823215;
-      width: 60px; }
+      width: 60px;
+      transition: all 0.5s; }
+    .footer-container .social-media .facebook:hover {
+      transform: scale(1.1); }
     .footer-container .social-media .instagram {
       border-radius: 50%;
       border: 3px solid #823215;
-      width: 60px; }
+      width: 60px;
+      transition: all 0.5s; }
+    .footer-container .social-media .instagram:hover {
+      transform: scale(1.1); }
 
 /*---whatsapp---*/
 .iconoWhatsapp {
-  width: 80px;
+  width: 65px;
   position: fixed;
   bottom: 30px;
   right: 30px;
-  border-radius: 50%;
+  border-radius: 60%;
   box-shadow: 0 1px 10px black;
   transition: all 0.5s; }
 
