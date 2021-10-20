@@ -30,7 +30,7 @@
     background-color: $color_1;
     bottom: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
      .footer-logo {
          width: 160px;
          margin-left: 100px;
@@ -75,7 +75,7 @@
 
 /*---whatsapp---*/
 .iconoWhatsapp {
-    width: 80px;
+    width: 65px;
     position: fixed;
     bottom: 30px;
     right: 30px;
