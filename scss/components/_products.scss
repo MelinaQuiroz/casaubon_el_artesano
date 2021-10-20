@@ -28,7 +28,8 @@
       font-family: $tipografia_general;
       text-align: center;
       color: $color_1;
-      transform: translateY(-60px);
+      width: max-content;
+      transform: translateY(-50px);
       transition: all linear 0.4s;
     }
     p {
@@ -38,12 +39,19 @@
 }
 .slick-track {
   height: 600px;
+  .pizza-title {
+      font-size: 30px;
+      
+    
+  }
 }
 
 .slick-center {
   .pizza-title {
-    transform: translateY(-60px);
-    font-size: 50px;
+    transform: translateY(-50px);
+    font-size: 40px;
+
+    
   }
    p {
      transform: translateY(60px);
