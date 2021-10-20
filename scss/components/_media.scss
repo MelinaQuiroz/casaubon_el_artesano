@@ -88,6 +88,9 @@ $breakpoints: (
 
   /*---Productos--*/
   .nuestros-productos {
+    .icon-title {
+       width:50px;
+    }
     h2 {
       font-family: Yerbaluisa;
       font-size: 50px;
@@ -115,6 +118,9 @@ $breakpoints: (
   .tituloHistoria {
     h2 {
       font-size: 50px;
+    }
+    .icon-title {
+      width: 50px;
     }
   }
   .historiaContainer {

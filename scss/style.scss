@@ -2,7 +2,7 @@
 @import "../scss/abstracts/vars";
 
 
-@import "../scss/components/base";
+@import "./components/base";
 
 /*---Menu de navegacion---*/
 @import "../scss/components/header";
@@ -15,6 +15,10 @@
 
 /*--Media Query---/*/
 @import "../scss/components/media";
+
+body {
+    background-color: black;
+}
 
 
 
