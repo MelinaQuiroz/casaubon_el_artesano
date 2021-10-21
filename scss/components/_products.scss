@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 40px;
+
   h2 {
     font-family: Yerbaluisa;
     font-size: 80px;
@@ -15,9 +16,14 @@
 .for_slick_slider {
   margin: 50px 0px 40px 0px;
   display: flex;
+
   .items {
     height: 250px;
     margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     img {
       border: 3px solid $color_1;
       width: 350px;
@@ -25,25 +31,33 @@
       transition: all linear 0.4s;
       box-shadow: 10px black;
     }
+
     .pizza-title {
       font-family: $tipografia_general;
       text-align: center;
       color: $color_1;
       transform: translateY(-50px);
       transition: all linear 0.4s;
+
     }
+
     p {
+      width: 400px;
+
       transition: all linear 0.4s;
     }
   }
 }
+
 .slick-track {
   height: 600px;
+
   .pizza-title {
-      font-size: 30px;
-      width: max-content;
-      
+    font-size: 30px;
+    width: max-content;
+
   }
+
   img {
     box-shadow: 10px black;
   }
@@ -54,16 +68,20 @@
     transform: translateY(-50px);
     font-size: 40px;
 
-    
-  }
-   p {
-     transform: translateY(60px);
-     font-family: $tipografia_general;
-     font-size: 25px;
-     opacity: 1;
-     transition: all 0.4s ease-in-out;
 
-   }
+  }
+
+  p {
+
+    transform: translateY(60px);
+
+    font-family: $tipografia_general;
+    font-size: 25px;
+
+    transition: all 0.4s ease-in-out;
+
+  }
+
   img {
     transform: scale(1.2);
     box-shadow: 0 5px 10px black;
