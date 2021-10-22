@@ -139,16 +139,16 @@
   display: flex; }
   .for_slick_slider .items {
     height: 250px;
-    margin: 50px; }
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
     .for_slick_slider .items img {
       border: 3px solid #af4b2c;
       width: 350px;
       height: 210px;
       transition: all linear 0.4s;
       box-shadow: 10px black; }
-    .for_slick_slider .items .title {
-      display: inline-block;
-      margin-left: 10px; }
     .for_slick_slider .items .pizza-title {
       display: inline-block;
       font-family: "Noto Serif", serif;
@@ -156,6 +156,7 @@
       transform: translateY(-50px);
       transition: all linear 0.4s; }
     .for_slick_slider .items p {
+      width: 400px;
       transition: all linear 0.4s; }
 
 .slick-track {
@@ -176,6 +177,12 @@
   text-align: center;
   transform: translateY(-50px);
   font-size: 40px; }
+
+.slick-center p {
+  transform: translateY(60px);
+  font-family: "Noto Serif", serif;
+  font-size: 25px;
+  transition: all 0.4s ease-in-out; }
 
 .slick-center p {
   transform: translateY(60px);
@@ -231,7 +238,8 @@
   grid-template-columns: 2fr 60px 1fr;
   grid-template-rows: auto;
   padding-bottom: 20px;
-  padding-right: 20px; }
+  padding-right: 20px;
+  margin-bottom: 50px; }
 
 .historia2 {
   display: grid;
@@ -265,10 +273,12 @@
   display: flex;
   justify-content: space-around; }
   .footer-container .footer-logo {
-    width: 160px;
-    margin-left: 125px; }
+    width: 160px; }
   .footer-container .footerSections {
-    margin: 10px; }
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
     .footer-container .footerSections a {
       font-family: SemiCondensed;
       display: flex;
@@ -276,19 +286,19 @@
       color: white;
       text-decoration: none;
       font-size: 20px;
-      padding: 6px;
+      padding: 0px 20px 0px 20px;
       align-items: center;
       transition: all 0.4s;
       border-radius: 20px; }
     .footer-container .footerSections a:hover {
       background-color: #823215; }
   .footer-container .social-media {
-    list-style: none;
-    display: column;
     margin-top: 10%;
-    margin-right: 40px; }
-    .footer-container .social-media div {
-      padding: 6px; }
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .footer-container .social-media a {
+      padding: 6px 0px 6px 0px; }
     .footer-container .social-media .facebook {
       border-radius: 50%;
       border: 3px solid #823215;
