@@ -143,12 +143,15 @@
     .for_slick_slider .items img {
       border: 3px solid #af4b2c;
       width: 350px;
-      height: 250px;
+      height: 210px;
       transition: all linear 0.4s;
       box-shadow: 10px black; }
+    .for_slick_slider .items .title {
+      display: inline-block;
+      margin-left: 10px; }
     .for_slick_slider .items .pizza-title {
+      display: inline-block;
       font-family: "Noto Serif", serif;
-      text-align: center;
       color: #af4b2c;
       transform: translateY(-50px);
       transition: all linear 0.4s; }
@@ -158,12 +161,19 @@
 .slick-track {
   height: 600px; }
   .slick-track .pizza-title {
+    text-align: center;
+    margin-left: 80px;
     font-size: 30px;
     width: max-content; }
   .slick-track img {
     box-shadow: 10px black; }
+  .slick-track p {
+    visibility: hidden;
+    text-align: center; }
 
 .slick-center .pizza-title {
+  margin-left: 80px;
+  text-align: center;
   transform: translateY(-50px);
   font-size: 40px; }
 
@@ -171,16 +181,16 @@
   transform: translateY(60px);
   font-family: "Noto Serif", serif;
   font-size: 25px;
-  opacity: 1;
+  visibility: visible;
   transition: all 0.4s ease-in-out; }
 
 .slick-center img {
-  transform: scale(1.2);
+  transform: scale(1.4);
   box-shadow: 0 5px 10px black; }
 
 .slick-arrow {
-  width: 50%;
-  margin-top: 8%; }
+  width: 65%;
+  margin-top: 6%; }
 
 .tituloHistoria {
   display: flex;
@@ -375,6 +385,8 @@
   /*--Ubicación--*/
   .tituloUbicacion h2 {
     font-size: 50px; }
+  .tituloUbicacion .icon-title {
+    width: 50px; }
   /*---footer---*/
   .footer-container {
     background-color: #af4b2c;
@@ -385,6 +397,3 @@
   .social-media {
     display: flex;
     margin-left: 100px; } }
-
-body {
-  background-color: black; }
