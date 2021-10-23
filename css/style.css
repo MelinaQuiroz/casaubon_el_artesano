@@ -33,11 +33,13 @@
     z-index: 999; }
     .header .nav .item {
       font-size: 25px;
-      margin-top: 12px;
-      margin-left: 10%; }
+      line-height: 60px;
+      margin-left: 5%; }
     .header .nav a {
       text-decoration: none;
       color: white; }
+    .header .nav .tel {
+      width: 30px; }
   .header .nav-items {
     display: none;
     margin-right: 200px;
@@ -142,7 +144,8 @@
     margin: 50px;
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    object-fit: cover; }
     .for_slick_slider .items img {
       border: 3px solid #af4b2c;
       width: 350px;
@@ -272,13 +275,14 @@
   bottom: 0;
   display: flex;
   justify-content: space-around; }
-  .footer-container .footer-logo {
+  .footer-container .container-logo img {
     width: 160px; }
   .footer-container .footerSections {
     margin: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; }
+    justify-content: space-between;
+    margin-right: 4%; }
     .footer-container .footerSections a {
       font-family: SemiCondensed;
       display: flex;
@@ -292,26 +296,26 @@
       border-radius: 20px; }
     .footer-container .footerSections a:hover {
       background-color: #823215; }
-  .footer-container .social-media {
+  .footer-container .media {
     margin-top: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center; }
-    .footer-container .social-media a {
+    .footer-container .media a {
       padding: 6px 0px 6px 0px; }
-    .footer-container .social-media .facebook {
+    .footer-container .media .facebook {
       border-radius: 50%;
       border: 3px solid #823215;
       width: 60px;
       transition: all 0.5s; }
-    .footer-container .social-media .facebook:hover {
+    .footer-container .media .facebook:hover {
       transform: scale(1.1); }
-    .footer-container .social-media .instagram {
+    .footer-container .media .instagram {
       border-radius: 50%;
       border: 3px solid #823215;
       width: 60px;
       transition: all 0.5s; }
-    .footer-container .social-media .instagram:hover {
+    .footer-container .media .instagram:hover {
       transform: scale(1.1); }
 
 /*---whatsapp---*/
@@ -342,7 +346,9 @@
     justify-content: space-between;
     z-index: 999; }
   .item {
-    margin-top: 12px; }
+    margin-left: 5%; }
+    .item img {
+      width: 10px; }
   a {
     font-size: 16px; }
   .little-logo {
@@ -385,6 +391,8 @@
     display: flex;
     flex-direction: column;
     padding: 0; }
+    .historia1 .aldo {
+      padding: 20px 0; }
     .historia1 .phistoria1 {
       font-size: 15px; }
   .historia2 {
@@ -404,6 +412,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between; }
-  .social-media {
+    .footer-container .social-media {
+      display: flex;
+      align-items: center;
+      padding: 0 6px 0 6px; }
+  .container-logo {
     display: flex;
-    margin-left: 100px; } }
+    justify-content: center;
+    align-items: center; } }

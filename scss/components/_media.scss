@@ -60,11 +60,16 @@ $breakpoints: (
     z-index: 999;
   }
   .item {
-    margin-top: 12px;
+    margin-left: 5%;
+    img {
+      width: 10px;
+    }
+    
   }
   a {
     font-size: 16px;
   }
+  
   .little-logo {
     width: 75px;
     margin-right: 20px;
@@ -135,6 +140,9 @@ $breakpoints: (
     display: flex;
     flex-direction: column;
      padding: 0;
+     .aldo {
+       padding: 20px 0;
+     }
      .phistoria1 {
        font-size: 15px;
      }
@@ -166,15 +174,19 @@ $breakpoints: (
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+     .social-media {
+       display: flex;
+       align-items: center;
+       padding: 0 6px 0 6px;
+     }
   }
 
-  .footer-logo {
-  }
-
-  .social-media {
+  .container-logo {
     display: flex;
-  
-    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
+
   }
 
-}
+  }
+
