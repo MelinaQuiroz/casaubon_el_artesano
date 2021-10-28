@@ -40,6 +40,20 @@
   line-height: 60px;
   margin-left: 5%;
 }
+.header .nav .item:hover .tel {
+  -webkit-animation: tiembla 0.3s 3;
+}
+@-webkit-keyframes tiembla {
+  0% {
+    -webkit-transform: rotateZ(-8deg);
+  }
+  50% {
+    -webkit-transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(8deg);
+  }
+}
 .header .nav a {
   text-decoration: none;
   color: white;
@@ -174,8 +188,6 @@
 }
 .for_slick_slider .items img {
   border: 3px solid #af4b2c;
-  width: 350px;
-  height: 210px;
   transition: all linear 0.4s;
   box-shadow: 10px black;
 }
@@ -193,18 +205,17 @@
 }
 
 .slick-track {
-  height: 600px;
+  height: 500px;
 }
 .slick-track .pizza-title {
   text-align: center;
   transform: translateY(-20px);
   font-size: 25px;
   width: max-content;
-  filter: blur(1px);
+  opacity: 50%;
 }
 .slick-track img {
   box-shadow: 10px black;
-  filter: blur(1px);
   opacity: 50%;
 }
 .slick-track p {
@@ -216,7 +227,7 @@
   text-align: center;
   transform: translateY(-50px);
   font-size: 40px;
-  filter: blur(0);
+  opacity: 100%;
 }
 .slick-center p {
   transform: translateY(60px);
@@ -234,7 +245,6 @@
 .slick-center img {
   transform: scale(1.4);
   box-shadow: 0 5px 10px black;
-  filter: blur(0);
   opacity: 100%;
 }
 
@@ -327,7 +337,10 @@
   background-color: #af4b2c;
   bottom: 0;
   display: flex;
-  justify-content: space-around;
+}
+.footer-container .container-logo {
+  display: flex;
+  justify-content: center;
 }
 .footer-container .container-logo img {
   width: 160px;
@@ -337,7 +350,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-right: 4%;
 }
 .footer-container .footerSections a {
   font-family: SemiCondensed;
@@ -354,8 +366,11 @@
 .footer-container .footerSections a:hover {
   background-color: #823215;
 }
+.footer-container .social-media {
+  display: flex;
+  justify-content: center;
+}
 .footer-container .media {
-  margin-top: 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;

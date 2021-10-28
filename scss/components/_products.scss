@@ -25,25 +25,21 @@
     align-items: center;
     object-fit: cover;
 
-  
     img {
       border: 3px solid $color_1;
-      width: 350px;
-      height: 210px;
+
       transition: all linear 0.4s;
       box-shadow: 10px black;
     }
+
     .pizza-title {
-      
       display: flex;
       align-items: center;
       display: inline-block;
       font-family: $tipografia_general;
       color: $color_1;
-     
-      transition: all linear 0.4s;
- 
 
+      transition: all linear 0.4s;
     }
 
     p {
@@ -55,65 +51,56 @@
 }
 
 .slick-track {
-  height: 600px;
+  height: 500px;
 
   .pizza-title {
     text-align: center;
     transform: translateY(-20px);
-      font-size: 25px;
-      width: max-content;
-      filter: blur(1px);
-      
-      
-      
+    font-size: 25px;
+    width: max-content;
+    opacity: calc(50%);
   }
 
   img {
     box-shadow: 10px black;
-    filter: blur(1px);
     opacity: calc(50%);
-    
   }
+
   p {
-    visibility:hidden;
+    visibility: hidden;
     text-align: center;
   }
 }
 
 .slick-center {
   .pizza-title {
-    
     text-align: center;
     transform: translateY(-50px);
     font-size: 40px;
-    filter: blur(0);
-    
-
-
+    opacity: calc(100%);
   }
 
   p {
-
     transform: translateY(60px);
 
     font-family: $tipografia_general;
     font-size: 25px;
 
     transition: all 0.4s ease-in-out;
-
   }
-   p {
-     transform: translateY(60px);
-     font-family: $tipografia_general;
-     font-size: 25px;
-     visibility: visible;
-     transition: all 0.4s ease-in-out;
 
-   }
+  p {
+    transform: translateY(60px);
+    font-family: $tipografia_general;
+    font-size: 25px;
+    visibility: visible;
+    transition: all 0.4s ease-in-out;
+  }
+
   img {
     transform: scale(1.4);
     box-shadow: 0 5px 10px black;
-    filter: blur(0);
+
     opacity: calc(100%);
   }
 }
