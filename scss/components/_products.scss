@@ -25,6 +25,7 @@
     align-items: center;
     object-fit: cover;
 
+  
     img {
       border: 3px solid $color_1;
       width: 350px;
@@ -33,11 +34,15 @@
       box-shadow: 10px black;
     }
     .pizza-title {
+      
+      display: flex;
+      align-items: center;
       display: inline-block;
       font-family: $tipografia_general;
       color: $color_1;
-      transform: translateY(-50px);
+     
       transition: all linear 0.4s;
+ 
 
     }
 
@@ -54,27 +59,35 @@
 
   .pizza-title {
     text-align: center;
-    margin-left: 80px;
-      font-size: 30px;
+    transform: translateY(-20px);
+      font-size: 25px;
       width: max-content;
+      filter: blur(1px);
+      
+      
       
   }
 
   img {
     box-shadow: 10px black;
+    filter: blur(1px);
+    opacity: calc(50%);
+    
   }
   p {
-    visibility: hidden;
+    visibility:hidden;
     text-align: center;
   }
 }
 
 .slick-center {
   .pizza-title {
-    margin-left: 80px;
+    
     text-align: center;
     transform: translateY(-50px);
     font-size: 40px;
+    filter: blur(0);
+    
 
 
   }
@@ -100,6 +113,8 @@
   img {
     transform: scale(1.4);
     box-shadow: 0 5px 10px black;
+    filter: blur(0);
+    opacity: calc(100%);
   }
 }
 
