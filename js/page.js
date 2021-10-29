@@ -69,7 +69,7 @@ $(document).ready(function () {
       $(window).scroll(function(){
           if($(window).scrollTop() < 200) {
               $('#logo')
-                  .css({'width':'550px' , 'height':'auto'
+                  .css({'width':'450px' , 'height':'auto'
                
                 })
                 $("#logo-min").css({ "opacity":"0%" ,

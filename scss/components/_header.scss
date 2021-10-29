@@ -6,6 +6,15 @@
   background-attachment: fixed;
   height: 800px;
 
+  h1{
+ 
+    font-family: SemiCondensed;
+    font-size: 70px;
+    color: white;
+    text-shadow: 3px 3px 3px rgb(17, 17, 17);
+    margin: 0px;
+  }
+
   .nav {
     height: 70px;
     background-color: $color_1;
@@ -147,12 +156,13 @@
 
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .logo {
-  width: 550px;
+  width: 450px;
   height: auto;
 }
 
@@ -164,6 +174,8 @@
     padding: 2px;
   }
 }
+
+
 
 /*   .logoMin {
       width:196px;
