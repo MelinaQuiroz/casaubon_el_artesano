@@ -5,6 +5,7 @@
   background-position: center;
   background-attachment: fixed;
   height: 800px;
+  position: relativa;
 
   h1{
  
@@ -15,12 +16,13 @@
     margin: 0px;
   }
 
-  .nav {
+  .menu {
     height: 70px;
     background-color: $color_1;
     display: flex;
     justify-content: space-between;
     z-index: 999;
+     
 
     .item {
       font-size: 25px;
@@ -61,23 +63,32 @@
     }
 
 
-
-
   }
-
-  .nav-items {
-    display: none;
-    margin-right: 200px;
-    margin-top: 25px;
+  .navbar {
+    background-color: rgb(218, 206, 206);
+    position:absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 1s ease-in-out;
+    text-align: center;
+    flex-direction: column;
+     
+  }
+  .show {
+    background-color: rgba(212, 204, 204, 0.8);
+    transition: 1s ease-in-out;
+    opacity: 1;
+    flex-direction: column;
   }
 
   .nav-menu-link {
+    font-size: 80px;
     color: black;
-    line-height: 20px;
     text-decoration: none;
-    text-transform: uppercase;
-    font-family: $tipografia_general;
-    margin-left: 10px;
+    font-family: Yerbaluisa;
+   
   }
 
 

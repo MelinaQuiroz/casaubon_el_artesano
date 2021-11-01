@@ -9,20 +9,23 @@ $(document).ready(function () {
        
       $('.site-nav').toggleClass('site-nav--open', 500);
       $(this).toggleClass('open');
+      $(".navbar").toggleClass("show");
     } else {
       menuBtn.removeClass("open");
       menuOpen = false;
       $(".site-nav").removeClass("open");
+      $(".navbar").removeClass("show");
     }
+    
   });
 
     /*--Sticky Navigation---*/
     $(window).scroll(function () {
       if ($(window).scrollTop() > 0) {
-        $("nav").addClass("sticky");
+        $(".menu").addClass("sticky");
        
       } else {
-        $("nav").removeClass("sticky");
+        $(".menu").removeClass("sticky");
       
       }
     });
