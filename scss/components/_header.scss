@@ -65,7 +65,6 @@
 
   }
   .navbar {
-    background-color: rgb(218, 206, 206);
     position:absolute;
     overflow: hidden;
     width: 100%;
@@ -74,21 +73,33 @@
     transition: 1s ease-in-out;
     text-align: center;
     flex-direction: column;
+    background-image: linear-gradient(rgba(255, 255, 255,0.6), rgba(255, 255, 255,0.6)), 
+    url(../images/FONDO-Inicio-Página-Web.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
      .container-menu {
-       width: 30%;
+       width: 40%;
        margin: 100px;
       
      }
-      .nav-menu-link {
-        font-size: 80px;
-        color: black;
-        text-decoration: none;
-        font-family: Yerbaluisa;
-        margin: 50px;
-        width: max-content ;
-       
-      }
+     
         
+  }
+  .nav-menu-link {
+    font-size: 80px;
+    color: black;
+    text-decoration: none;
+    font-family: Yerbaluisa;
+    text-align: center;
+    width: max-content;
+   
+  }
+  .navbar-item {
+    margin-top: 50px;
+     img {
+       margin-bottom: 50px;
+     }
   }
   .show {
     background-image: linear-gradient(rgba(255, 255, 255,0.6), rgba(255, 255, 255,0.6)), 
@@ -99,6 +110,7 @@
     transition: 1s ease-in-out;
     opacity: 1;
     flex-direction: column;
+    z-index: 999;
   }
 
   

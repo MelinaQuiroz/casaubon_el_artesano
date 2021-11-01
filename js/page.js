@@ -10,14 +10,26 @@ $(document).ready(function () {
       $('.site-nav').toggleClass('site-nav--open', 500);
       $(this).toggleClass('open');
       $(".navbar").toggleClass("show");
+      //no scroll
+      $('html, body').css({
+        overflow: 'hidden',
+        height: '100%'
+    });
     } else {
       menuBtn.removeClass("open");
       menuOpen = false;
       $(".site-nav").removeClass("open");
       $(".navbar").removeClass("show");
+      //scroll
+      $('html, body').css({
+        overflow: 'auto',
+        height: 'auto'
+    });
     }
     
   });
+  
+  
 
     /*--Sticky Navigation---*/
     $(window).scroll(function () {

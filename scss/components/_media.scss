@@ -47,12 +47,15 @@ $breakpoints: (
   .header {
     height: 500px;
     .logo {
-      width: 500px;
+      width: 100px;
       margin-top: 6%;
+    }
+    h1 {
+      font-size: 40px;
     }
   }
 
-  .nav {
+  .menu {
     height: 70px;
     background-color: $color_1;
     display: flex;
@@ -90,7 +93,23 @@ $breakpoints: (
     cursor: pointer;
     transition: all 0.5s ease-in-out;
   }
+  //navegador
+  .container-menu {
+    width: 100%;
+  }
 
+  .navbar-item {
+    img {
+      width: 50px;
+    }
+  .nav-menu-link {
+    font-size: 50px;
+    margin-left: 100px;
+  
+  }
+ }
+ 
+ 
   /*---Productos--*/
   .nuestros-productos {
     .icon-title {
