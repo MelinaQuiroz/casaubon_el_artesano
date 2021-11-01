@@ -67,16 +67,24 @@
     transition: 1s ease-in-out;
     text-align: center;
     flex-direction: column; }
+    .header .navbar .container-menu {
+      width: 30%;
+      margin: 100px; }
+    .header .navbar .nav-menu-link {
+      font-size: 80px;
+      color: black;
+      text-decoration: none;
+      font-family: Yerbaluisa;
+      margin: 50px;
+      width: max-content; }
   .header .show {
-    background-color: rgba(212, 204, 204, 0.8);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../images/FONDO-Inicio-Página-Web.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     transition: 1s ease-in-out;
     opacity: 1;
     flex-direction: column; }
-  .header .nav-menu-link {
-    font-size: 80px;
-    color: black;
-    text-decoration: none;
-    font-family: Yerbaluisa; }
   .header .menu-btn {
     margin-top: 10px;
     margin-right: 14%;
