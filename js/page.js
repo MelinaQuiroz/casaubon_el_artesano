@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  
   /*---HAMBURGUER BTN---*/
   const menuBtn = $(".menu-btn");
   let menuOpen = false;
@@ -10,6 +11,7 @@ $(document).ready(function () {
       $('.site-nav').toggleClass('site-nav--open', 500);
       $(this).toggleClass('open');
       $(".navbar").toggleClass("show");
+      
       //no scroll
       $('html, body').css({
         overflow: 'hidden',
@@ -20,6 +22,9 @@ $(document).ready(function () {
       menuOpen = false;
       $(".site-nav").removeClass("open");
       $(".navbar").removeClass("show");
+
+
+     
       //scroll
       $('html, body').css({
         overflow: 'auto',
@@ -41,6 +46,22 @@ $(document).ready(function () {
       
       }
     });
+
+    /*--Menu Navigation--*/
+    var linkMenu = $(".nav-menu-link");
+    linkMenu.click(() => {
+      $(".navbar").removeClass("show");
+      //scroll
+      $('html, body').css({
+        overflow: 'auto',
+        height: 'auto'
+    });
+    menuBtn.removeClass("open");
+      menuOpen = false;
+      $(".site-nav").removeClass("open");
+
+    });
+
 
     
     /*---Carousel--*/

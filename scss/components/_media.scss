@@ -64,8 +64,9 @@ $breakpoints: (
   }
   .item {
     margin-left: 5%;
-    img {
-      width: 10px;
+    .tel {
+      display: none;
+      
     }
     
   }
