@@ -45,7 +45,7 @@ $breakpoints: (
 @include sm {
   /*---header---*/
   .header {
-    height: 500px;
+    height: 600px;
     .logo {
       width: 100px;
       margin-top: 6%;
@@ -94,6 +94,27 @@ $breakpoints: (
     cursor: pointer;
     transition: all 0.5s ease-in-out;
   }
+ .navbar .container-menu{
+   
+   margin: 15px;
+
+ .navbar-item {
+display:flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+.nav-menu-link {
+  margin: 0px;
+  padding: 0px 60px 0px 60px;
+
+}
+.icon-title{
+  width: 70px;
+  height: 70px;
+  margin: 0px;
+}
+  }
+} 
   //navegador
   .container-menu {
     width: 100%;
