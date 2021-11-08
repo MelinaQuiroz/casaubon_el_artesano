@@ -556,6 +556,7 @@ html {
   }
   .slick-center p {
     font-size: 20px;
+    width: 300px !important;
   }
   .slick-center img {
     width: 200px;
