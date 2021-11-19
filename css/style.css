@@ -43,14 +43,14 @@ html {
 .header .menu {
   height: 70px;
   background-color: #af4b2c;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   z-index: 999;
 }
 .header .menu .item {
   font-size: 25px;
   line-height: 60px;
-  margin-left: 5%;
+  margin-left: 3%;
 }
 .header .menu .item:hover .tel {
   -webkit-animation: tiembla 0.3s 3;
@@ -71,7 +71,7 @@ html {
   color: white;
 }
 .header .menu .tel {
-  width: 30px;
+  width: 25px;
 }
 .header .navbar {
   position: absolute;
@@ -89,7 +89,7 @@ html {
 }
 .header .navbar .container-menu {
   width: 40%;
-  margin: 30px;
+  margin: 10px;
 }
 .header .nav-menu-link {
   font-size: 80px;
@@ -117,12 +117,13 @@ html {
 }
 .header .menu-btn {
   margin-top: 10px;
-  margin-right: 14%;
+  margin-right: 3%;
   color: white;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  justify-self: end;
   width: 50px;
   height: 50px;
   cursor: pointer;
@@ -185,6 +186,7 @@ html {
 
 .little-logo {
   width: 75px;
+  justify-self: center;
 }
 .little-logo .img-logo {
   opacity: 0%;
@@ -378,17 +380,18 @@ html {
 .footer-container {
   background-color: #af4b2c;
   bottom: 0;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .footer-container .container-logo {
-  display: flex;
-  justify-content: center;
+  justify-self: start;
 }
 .footer-container .container-logo img {
   width: 160px;
 }
 .footer-container .footerSections {
   margin: 10px;
+  justify-self: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -397,13 +400,15 @@ html {
   font-family: SemiCondensed;
   display: flex;
   flex-direction: column;
+  white-space: nowrap;
   color: white;
   text-decoration: none;
   font-size: 20px;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 40px 0px 40px;
   align-items: center;
   transition: all 0.4s;
   border-radius: 20px;
+  align-self: center;
 }
 .footer-container .footerSections a:hover {
   background-color: #823215;
@@ -411,6 +416,7 @@ html {
 .footer-container .social-media {
   display: flex;
   justify-content: center;
+  justify-self: end;
 }
 .footer-container .media {
   display: flex;
@@ -439,52 +445,39 @@ html {
   transform: scale(1.1);
 }
 
-/*---whatsapp---*/
-.iconoWhatsapp {
-  width: 65px;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  border-radius: 60%;
-  box-shadow: 0 1px 10px black;
-  transition: all 0.5s;
-}
-
-.iconoWhatsapp:hover {
-  transform: scale(1.1);
-}
-
 /*--Media Query---/*/
 @media (max-width: 500px) {
   /*---header---*/
   .header {
     height: 600px;
+    background-size: cover;
   }
   .header .logo {
     width: 100px;
     margin-top: 6%;
   }
   .header h1 {
+    margin-top: 10px;
     font-size: 40px;
   }
 
   .menu {
     height: 70px;
     background-color: #af4b2c;
-    display: flex;
-    justify-content: space-between;
     z-index: 999;
   }
   .menu .menu-btn {
     margin-top: 10px;
-    margin-right: 5%;
+    margin-right: 10%;
+    margin-bottom: 10%;
     color: white;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
-    height: 50px;
+    align-self: center;
+    width: 20px;
+    height: 20px;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
   }
@@ -493,7 +486,7 @@ html {
     margin-left: 5%;
   }
   .item .tel {
-    display: none;
+    width: 10px;
   }
 
   a {
@@ -522,8 +515,8 @@ html {
     padding: 0px 60px 0px 60px;
   }
   .navbar .container-menu .navbar-item .icon-title {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     margin: 0px;
   }
 

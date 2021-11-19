@@ -19,15 +19,18 @@
   .menu {
     height: 70px;
     background-color: $color_1;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+   
     z-index: 999;
      
 
     .item {
       font-size: 25px;
       line-height: 60px;
-      margin-left: 5%;
+      margin-left: 3%;
+     
 
     }
 
@@ -58,7 +61,7 @@
     }
 
     .tel {
-      width: 30px;
+      width: 25px;
 
     }
 
@@ -80,7 +83,7 @@
     background-size: cover;
      .container-menu {
        width: 40%;
-       margin: 30px;
+       margin: 10px;
       
      }
      
@@ -118,12 +121,13 @@
 
   .menu-btn {
     margin-top: 10px;
-    margin-right: 14%;
+    margin-right: 3%;
     color: white;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-self: end;
     width: 50px;
     height: 50px;
     cursor: pointer;
@@ -203,6 +207,7 @@
 
 .little-logo {
   width: 75px;
+  justify-self: center;
 
   .img-logo {
     opacity: 0%;

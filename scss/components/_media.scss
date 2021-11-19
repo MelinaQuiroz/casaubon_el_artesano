@@ -46,11 +46,13 @@ $breakpoints: (
   /*---header---*/
   .header {
     height: 600px;
+    background-size: cover;
     .logo {
       width: 100px;
       margin-top: 6%;
     }
     h1 {
+      margin-top: 10px;
       font-size: 40px;
     }
  
@@ -60,20 +62,21 @@ $breakpoints: (
   .menu {
     height: 70px;
     background-color: $color_1;
-    display: flex;
-    justify-content: space-between;
+   
     z-index: 999;
 
     .menu-btn {
       margin-top: 10px;
-      margin-right: 5%;
+      margin-right: 10%;
+      margin-bottom: 10%;
       color: white;
       position: relative;
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 50px;
-      height: 50px;
+      align-self:center;
+      width: 20px;
+      height: 20px;
       cursor: pointer;
       transition: all 0.5s ease-in-out;    
     }
@@ -81,8 +84,7 @@ $breakpoints: (
   .item {
     margin-left: 5%;
     .tel {
-      display: none;
-      
+    width: 10px;
     }
     
   }
@@ -115,8 +117,8 @@ align-items: center;
 
 }
 .icon-title{
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   margin: 0px;
 }
   }

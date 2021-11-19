@@ -32,16 +32,18 @@
 }
 
 .footer-container {
+    
     background-color: $color_1;
     bottom: 0;
-    display: flex;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   
    
    
 
 
     .container-logo {
-        display: flex;
-        justify-content: center;
+      justify-self: start;
        img {
         width: 160px;
        }
@@ -50,22 +52,27 @@
 
     .footerSections {
         margin: 10px;
+        justify-self: center;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         
 
         a {
+           
             font-family: SemiCondensed;
             display: flex;
             flex-direction: column;
+            white-space: nowrap;
             color: white;
             text-decoration: none;
             font-size: 20px;
-            padding: 0px 20px 0px 20px;
+            padding: 0px 40px 0px 40px;
             align-items: center;
             transition: all 0.4s;
             border-radius: 20px;
+            align-self: center;
+          
 
         }
 
@@ -80,6 +87,7 @@
     .social-media {
         display: flex;
        justify-content: center;
+       justify-self: end;
     }
     .media {
 
@@ -119,24 +127,5 @@
             transform: scale(1.1);
         }
     }
-
-}
-
-
-
-/*---whatsapp---*/
-.iconoWhatsapp {
-    width: 65px;
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    border-radius: 60%;
-    box-shadow: 0 1px 10px black;
-    transition: all 0.5s;
-
-}
-
-.iconoWhatsapp:hover {
-    transform: scale(1.1);
 
 }
