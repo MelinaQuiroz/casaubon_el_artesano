@@ -605,15 +605,17 @@ html {
     justify-content: space-between;
   }
   .footer-container .social-media {
+    padding-left: 25px;
     display: flex;
     align-items: center;
-    padding: 0 6px 0 6px;
+    align-self: center;
   }
 
   .container-logo {
     display: flex;
     justify-content: center;
     align-items: center;
+    align-self: center;
   }
 }
 
