@@ -44,6 +44,7 @@
 
     .container-logo {
       justify-self: start;
+      margin-left: 5%;
        img {
         width: 160px;
        }
@@ -86,8 +87,9 @@
     
     .social-media {
         display: flex;
-       justify-content: center;
+       justify-content: end;
        justify-self: end;
+       margin-right: 5%;
     }
     .media {
 

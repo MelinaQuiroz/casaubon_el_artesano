@@ -50,7 +50,7 @@ html {
 .header .menu .item {
   font-size: 25px;
   line-height: 60px;
-  margin-left: 3%;
+  margin-left: 5%;
 }
 .header .menu .item:hover .tel {
   -webkit-animation: tiembla 0.3s 3;
@@ -117,7 +117,7 @@ html {
 }
 .header .menu-btn {
   margin-top: 10px;
-  margin-right: 3%;
+  margin-right: 5%;
   color: white;
   display: flex;
   justify-content: center;
@@ -384,6 +384,7 @@ html {
 }
 .footer-container .container-logo {
   justify-self: start;
+  margin-left: 5%;
 }
 .footer-container .container-logo img {
   width: 160px;
@@ -414,8 +415,9 @@ html {
 }
 .footer-container .social-media {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   justify-self: end;
+  margin-right: 5%;
 }
 .footer-container .media {
   display: flex;
