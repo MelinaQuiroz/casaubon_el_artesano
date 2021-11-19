@@ -1,5 +1,4 @@
-$breakpoints: (
-  "xs": 0,
+$breakpoints: ("xs": 0,
   "sm": 500px,
   "md": 720px,
   "lg": 960px,
@@ -43,26 +42,29 @@ $breakpoints: (
 }
 
 @include sm {
+
   /*---header---*/
   .header {
     height: 600px;
     background-size: cover;
+
     .logo {
       width: 100px;
       margin-top: 6%;
     }
+
     h1 {
       margin-top: 10px;
       font-size: 40px;
     }
- 
+
   }
 
 
   .menu {
     height: 70px;
     background-color: $color_1;
-   
+
     z-index: 999;
 
     .menu-btn {
@@ -70,28 +72,35 @@ $breakpoints: (
       margin-right: 10%;
       margin-bottom: 10%;
       color: white;
-      position: relative;
+    
       display: flex;
       justify-content: center;
       align-items: center;
-      align-self:center;
+      align-self: center;
       width: 20px;
       height: 20px;
       cursor: pointer;
-      transition: all 0.5s ease-in-out;    
+      transition: all 0.5s ease-in-out;
     }
-  }
-  .item {
-    margin-left: 5%;
-    .tel {
-    width: 10px;
-    }
+
     
   }
+
+  .item {
+    margin-left: 5%;
+    white-space: nowrap;
+
+    .tel {
+      width: 10px;
+
+    }
+
+  }
+
   a {
     font-size: 16px;
   }
-  
+
   .little-logo {
     width: 75px;
     margin-right: 20px;
@@ -102,27 +111,30 @@ $breakpoints: (
   }
 
 
- .navbar .container-menu{
-   
-   margin: 15px;
+  .navbar .container-menu {
 
- .navbar-item {
-display:flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-.nav-menu-link {
-  margin: 0px;
-  padding: 0px 60px 0px 60px;
+    margin: 15px;
 
-}
-.icon-title{
-  width: 50px;
-  height: 50px;
-  margin: 0px;
-}
+    .navbar-item {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      .nav-menu-link {
+        margin: 0px;
+        padding: 0px 60px 0px 60px;
+
+      }
+
+      .icon-title {
+        width: 50px;
+        height: 50px;
+        margin: 0px;
+      }
+    }
   }
-} 
+
   //navegador
   .container-menu {
     width: 100%;
@@ -132,19 +144,21 @@ align-items: center;
     img {
       width: 50px;
     }
-  .nav-menu-link {
-    font-size: 50px;
-    margin-left: 100px;
-  
+
+    .nav-menu-link {
+      font-size: 50px;
+      margin-left: 100px;
+
+    }
   }
- }
- 
- 
+
+
   /*---Productos--*/
   .nuestros-productos {
     .icon-title {
-       width:50px;
+      width: 50px;
     }
+
     h2 {
       font-family: Yerbaluisa;
       font-size: 50px;
@@ -152,61 +166,69 @@ align-items: center;
       justify-content: center;
     }
   }
-   .slick-center {
-     .pizza-title {
-       font-size: 30px;
-       width: max-content;
-     }
-     p {
-       font-size: 20px;
-        width: 300px!important;
-     }
 
-     img {
-       width: 200px;
-     }
-     
-     
+  .slick-center {
+    .pizza-title {
+      font-size: 30px;
+      width: max-content;
+    }
+
+    p {
+      font-size: 20px;
+      width: 300px !important;
+    }
+
+    img {
+      width: 200px;
+    }
+
+
   }
 
-  
+
 
   /*---Historia---*/
   .tituloHistoria {
     h2 {
       font-size: 50px;
     }
+
     .icon-title {
       width: 50px;
     }
   }
+
   .historiaContainer {
     padding: 8px;
   }
-  
-    
-    
-    
-  
+
+
+
+
+
   .historia1 {
     display: flex;
     flex-direction: column;
-     padding: 0;
-     .aldo {
-       padding: 20px 0;
-     }
-     .phistoria1 {
-       font-size: 15px;
-     }
-      
-      
+    padding: 0;
+
+    .aldo {
+      padding: 20px 0;
+    }
+
+    .phistoria1 {
+      font-size: 15px;
+    }
+
+
   }
+
   .historia2 {
     display: flex;
     flex-direction: column;
-     .phistoria2 {
-       font-size: 15px;
-     }
+
+    .phistoria2 {
+      font-size: 15px;
+    }
   }
 
   /*--Ubicación--*/
@@ -214,9 +236,10 @@ align-items: center;
     h2 {
       font-size: 50px;
     }
+
     .icon-title {
       width: 50px;
-  }
+    }
   }
 
   /*---footer---*/
@@ -226,11 +249,12 @@ align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-     .social-media {
-       display: flex;
-       align-items: center;
-       padding: 0 6px 0 6px;
-     }
+
+    .social-media {
+      display: flex;
+      align-items: center;
+      padding: 0 6px 0 6px;
+    }
   }
 
   .container-logo {
@@ -240,5 +264,4 @@ align-items: center;
 
   }
 
-  }
-
+}

@@ -119,7 +119,6 @@ html {
   margin-top: 10px;
   margin-right: 3%;
   color: white;
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -471,7 +470,6 @@ html {
     margin-right: 10%;
     margin-bottom: 10%;
     color: white;
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -484,6 +482,7 @@ html {
 
   .item {
     margin-left: 5%;
+    white-space: nowrap;
   }
   .item .tel {
     width: 10px;
