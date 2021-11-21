@@ -64,8 +64,8 @@ $(document).ready(function () {
     arrows: true,
     centerMode: true,
     centerPadding: "0",
-    prevArrow: '<a href="#" id="prev"><img class="img-fluid" src="images/left-arrow.png" alt="prev" /></a>',
-    nextArrow: '<a href="#" id="next"><img class="img-fluid" src="images/right-arrow.png" alt="next" /></a>',
+    prevArrow: '<a href="#" id="prev"><img class="img-fluid" src="images/left-arrow2.png" alt="prev" /></a>',
+    nextArrow: '<a href="#" id="next"><img class="img-fluid" src="images/right-arrow2.png" alt="next" /></a>',
     responsive: [{
         breakpoint: 768,
         settings: {
@@ -73,15 +73,19 @@ $(document).ready(function () {
           centerMode: true,
           centerPadding: "40px",
           slidesToShow: 3,
+          prevArrow: '<a href="#" id="prev"><img class="img-fluid" src="images/left-arrow.png" alt="prev" /></a>',
+          nextArrow: '<a href="#" id="next"><img class="img-fluid" src="images/right-arrow.png" alt="next" /></a>',
         },
       },
       {
         breakpoint: 480,
         settings: {
-          arrows: false,
+          arrows: true,
           centerMode: true,
           centerPadding: "40px",
           slidesToShow: 1,
+          prevArrow: '<a href="#" id="prev"><img class="img-fluid" src="images/left-arrow2.png" alt="prev" /></a>',
+          nextArrow: '<a href="#" id="next"><img class="img-fluid" src="images/right-arrow2.png" alt="next" /></a>',
         },
       },
     ],
